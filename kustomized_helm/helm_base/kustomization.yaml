@@ -5,5 +5,5 @@ commonLabels:
   app.kubernetes.io/managed-by: argocd
 
 resources:
-- deployment.yaml
-- service.yaml
+- templates/deployment.yaml
+- templates/service.yaml
